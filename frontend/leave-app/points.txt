@@ -1,0 +1,7 @@
+formdata state h jisme we capture each value like start end date and reason for leaves.. 
+
+******mujhe yeh frontend se token bhejna smjh nhi aaya.. exactly token create shyd user k login k time pr hoga toh fir hmm token bhi userlogin wali file se bhejnge na fir?
+
+asn-- Login (Login.js): Aap ek Office (App) ke gate par gaye. Guard ne aapka ID check kiya aur aapko ek Entry Pass (Token) de diya. Aapne wo pass apni Pocket (localStorage) mein rakh liya.
+Dashboard/History (LeaveDashboard.jsx): Ab aap Office ke andar "Conference Room" (API Route) mein jana chahte ho. Conference Room ke bahar ek dusra guard (Middleware) khada hai.
+Ab aap wapas gate par (Login) toh nahi jaoge na? Aap bas apni Pocket (localStorage) se wo Pass nikal kar Guard ko dikhaoge.
